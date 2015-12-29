@@ -1,0 +1,186 @@
+<!doctype html>
+<html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Melprints Demo Storefront</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<style type="text/css">
+.wrapper {
+	background-color:#313131;
+}
+.wrapBorder {
+	max-width:1200px;
+	margin:0 auto;
+	background-color:#fff;
+	border:4px double #000000;	
+}
+.logo {
+	padding: 20px 0px 20px 20px;	
+}
+.thumbnail {
+	border:none;	
+}
+.productImages a img {
+	opacity:1.0;	
+}
+.productImages a img:hover {
+	opacity:0.4;	
+}
+footer ul {
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+</style>
+</head>
+<body>
+	<div class="wrapper">
+       <div class="wrapBorder">
+        <div class="logo"><a href="http://melprints.com/index.php"><img src="Include/melprintsLogoBlack300.png"></a></div>
+            <nav class="navbar navbar-inverse">
+              <div class="container">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                  </button>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="http://melprintsstore.com/RetailSite.asp?u=melprintsdemo&p=mike">Home</a></li>
+                    <li><a href="/Registration.asp">Register</a></li>
+                    <li><a href="http://www.melprintsstore.com/ProductCats.asp?cid=1&itemname=Product+Catalog+Menu">Products</a></li>
+                    <li><a href="Orders.asp">Orders</a></li>
+                  </ul>
+                  <ul class="nav navbar-nav pull-right">
+                    <li><a href="#">Contact/Help</a></li>
+                    <li><a href="http://melprintsstore.com/ShowPage.asp?type=login"><span class="glyphicon glyphicon-user"></span> Your Account</a></li>
+                    <li><a href="Cart.asp"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+                    <li><a href="http://melprintsstore.com/ShowPage.asp?type=login" TARGET="_top">Log In/Out</a> </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+           <div class="container">
+           		<div class="jumbotron">
+                	
+                    <h1 class="text-center">Welcome to Melprints Demo Store</h2>
+                    <p class="description">See our latest products. If you need any help or have any questions contact <a href="mailto:alison@melprinting.com">alison@melprinting.com</a></p>
+                    
+            	</div>
+            <div class="row">
+            	<div class="col-md-3">
+                    <div class="productImages">
+                        <a href="ProductCats.asp?cid=549&itemname=Business+Cards+-+Melprints" class="thumbnail">
+                            <img src="Include/melbc.jpg" class="img img-responsive" width="200" height="200" />
+                            <div class="caption text-center">Business Cards</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="productImages">
+                        <a href="ProductCats.asp?cid=745&itemname=Poster+-+Melprints+Demo" class="thumbnail">
+                            <img src="Include/melposter.jpg" class="img img-responsive" width="200" height="200"/>
+                            <div class="caption text-center">Posters</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="productImages">
+                        <a href="ProductCats.asp?cid=123&itemname=Product+Catalog" class="thumbnail">
+                            <img src="Include/brochure200.jpg" class="img img-responsive" width="200" height="200"/>
+                            <div class="caption text-center">Brochure</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="productImages">
+                        <a href="ProductCats.asp?cid=776&itemname=Letterhead+-+Melprints" class="thumbnail">
+                            <img src="Include/letterhead200.jpg" class="img img-responsive" width="200" height="200"/>
+                            <div class="caption text-center">Letterhead</div>
+                        </a>
+                    </div>
+             </div>
+             <div class="row">
+                <div class="col-md-3">
+                    <div class="productImages">
+                        <a href="ProductCats.asp?cid=774&itemname=Flyers+-+Melprints" class="thumbnail">
+                            <img src="Include/flyer200.jpg" class="img img-responsive" width="200" height="200"/>
+                            <div class="caption text-center">Flyers</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="productImages">
+                        <a href="ProductCats.asp?cid=773&itemname=Envelopes+-+Melprints" class="thumbnail">
+                            <img src="Include/envelope200.jpg" class="img img-responsive" width="200" height="200" />
+                            <div class="caption text-center">Envelopes</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="productImages">
+                        <a href="ProductCats.asp?cid=123&itemname=Product+Catalog" class="thumbnail">
+                            <img src="Include/bm200.jpg" class="img img-responsive" width="200" height="200" />
+                            <div class="caption text-center">Bookmarks</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="productImages">
+                        <a href="ProductCats.asp?cid=123&itemname=Product+Catalog" class="thumbnail">
+                            <img src="Include/postcard200.jpg" class="img img-responsive" width="200" height="200" />
+                            <div class="caption text-center">Postcards</div>
+                       </a>
+                    </div>
+                </div>
+            </div>
+           </div>
+            <hr>
+            <footer>
+            	<div class="container">
+                	<div class="row">
+                    	<div class="col-md-3">
+            				<a href="http://melprints.com/index.php"><img src="Include/melprintsLogoBlack300.png" class="img img-responsive"></a>
+                        </div>
+                        <div class="col-md-3">
+                        	<h4>Location</h4>
+                            <address>
+                                19110 Allen Road<br>
+                               Melvindale, MI 48122<br>
+                               313.928.5440<br>
+                               <a href="mailto:print@melprinting.com">print@melprinting.com</a>
+                            </address>
+                        </div>
+                        <div class="col-md-3">
+                        	<h4>Products</h4>
+                            <UL>
+                                <LI><a href="http://melprints.com/printingServices.php">Printing Services</a></LI>
+                                <LI><a href="http://melprints.com/corporateStorefront.php">Corporate Storefronts</a></LI>
+                                <LI><a href="http://melprints.com/crossMediaMarketing.php">Cross Media Marketing</a></LI>
+                            </UL>
+                        </div>
+                        <div class="col-md-3">
+                        	<h4>About Us</h4>
+                            <UL>
+                                <LI><a href="http://melprints.com/aboutUsMain.php">Contact Information</a></LI>
+                                <LI><a href="http://melprints.com/aboutUsMain.php">Hours/Locations</a></LI>
+                            </UL>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+           </div>
+        </div>
+    </div>
+</body>
+</html>
